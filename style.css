@@ -48,7 +48,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: white;
+    color: rgb(118, 238, 130);
 }
 
 .subscribe-btn {
@@ -63,6 +63,11 @@ body {
     font-family: Manrope;
     font-size: 16px;
 }
+.subscribe-btn:hover {
+    background: linear-gradient(90deg, #F43F5E, #8B5CF6);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(236, 72, 153, 0.5); }
+
 .mobile-menu-icon {
     display: none;
     width: 30px;
