@@ -495,7 +495,7 @@ transform: rotate(1deg);
     .mobile-menu-icon {
         display: block;
     }
-        .hero-title {
+    .hero-title {
         font-size: 40px;
     }
     
@@ -538,6 +538,6 @@ transform: rotate(1deg);
 
     .footer-socials {
         gap: 15px;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
